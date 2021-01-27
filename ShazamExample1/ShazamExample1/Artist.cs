@@ -11,5 +11,10 @@ namespace ShazamExample1
         private string _Name;
 
         public string Name { get => _Name; set => _Name = value; }
+
+        public Artist()
+        {
+            Console.WriteLine("Artist Created.");
+        }
     }
 }

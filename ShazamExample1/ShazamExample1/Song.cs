@@ -17,5 +17,10 @@ namespace ShazamExample1
         
         public float Duration { get => _Duration; set => _Duration = value; }
         internal Artist Artist { get => _Artist; set => _Artist = value; }
+
+        public Song()
+        {
+            Console.WriteLine("Song Created.");
+        }
     }
 }
